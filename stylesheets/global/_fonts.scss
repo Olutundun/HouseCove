@@ -1,0 +1,52 @@
+/* noto-serif-regular - latin */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: font-url('noto-serif-v16-latin-regular', 'eot');
+    src: font-url('noto-serif-v16-latin-regular', 'eot'),
+         font-url('noto-serif-v16-latin-regular', 'svg'),
+         font-url('noto-serif-v16-latin-regular', 'ttf'),
+         font-url('noto-serif-v16-latin-regular', 'woff'),
+         font-url('noto-serif-v16-latin-regular', 'woff2');
+         
+  }
+  /* noto-serif-700 - latin */
+  @font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/noto-serif-v16-latin-700.eot'); /* IE9 Compat Modes */
+    src:font-url('noto-serif-v16-latin-700', 'eot'),
+        font-url('noto-serif-v16-latin-700', 'svg'),
+        font-url('noto-serif-v16-latin-700', 'ttf'),
+        font-url('noto-serif-v16-latin-700', 'woff'),
+        font-url('noto-serif-v16-latin-700', 'woff2');  
+  }
+
+  //ibm-plex-mono-v7-latin-regular
+
+@font-face {
+    font-family: 'Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: font-url('ibm-plex-mono-v7-latin-regular', 'eot');
+    src: font-url('ibm-plex-mono-v7-latin-regular', 'eot'),
+         font-url('ibm-plex-mono-v7-latin-regular', 'svg'),
+         font-url('ibm-plex-mono-v7-latin-regular', 'ttf'),
+         font-url('ibm-plex-mono-v7-latin-regular', 'woff'),
+         font-url('ibm-plex-mono-v7-latin-regular', 'woff2');
+         
+  }
+
+  @font-face {
+    font-family: 'Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ibm-plex-mono-v7-latin-700.eot'); /* IE9 Compat Modes */
+    src: font-url('ibm-plex-mono-v7-latin-700', 'eot'),
+         font-url('ibm-plex-mono-v7-latin-700', 'svg'),
+         font-url('ibm-plex-mono-v7-latin-700', 'ttf'),
+         font-url('ibm-plex-mono-v7-latin-700', 'woff'),
+         font-url('ibm-plex-mono-v7-latin-700', 'woff2');  
+  }
