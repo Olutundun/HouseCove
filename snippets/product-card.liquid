@@ -8,8 +8,13 @@
       <div class="card-info">
         <div class="card-info-top">
            <div class="product-title h3">{{ product.title }}</div>
-           <div class="produt-price">{{ product.price | money }}</div>
-        </div>
+           {% if product.selected_or_first_available_variant.compare_at_price > 0 %}
+             <div data-product-price class="discount-price">
+               {{ product.selected_or_first_available_variant.compare_at_price | money_without_trailing_zeros }}</div>
+               {% endif %}
+           <div class="product-price">{{ product.price | money }}</div>
+           {% comment %} <h4 data-product-price class="{% if product.selected_or_first_available_variant.compare_at_price > 0 %} text-red-500 {% endif %}">{{ product.selected_or_first_available_variant.price | money_without_trailing_zeros }}</h4>  {% endcomment %} 
+        </div> 
         <div class="card-info-bottom">
           {% if product.available %}
            {% if product.variants.size > 1 %}
